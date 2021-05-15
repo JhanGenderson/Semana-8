@@ -1,6 +1,5 @@
 // Ejercicio 1 
 let iniciarJuego = ()=>{
-    // No se si ganare o perdere
     return new Promise((resolve,reject)=>{
      let numero = Math.random();
         console.log(numero);
@@ -11,9 +10,7 @@ let iniciarJuego = ()=>{
         }
     })
 };
-
 let iniciarJuego2 = ()=>{
-    // No se si ganare o perdere
     return new Promise((resolve,reject)=>{
      let numero = Math.random();
         console.log(numero);
@@ -24,9 +21,7 @@ let iniciarJuego2 = ()=>{
         }
     })
 };
-
 let iniciarJuego3 = ()=>{
-    // No se si ganare o perdere
     return new Promise((resolve,reject)=>{
      let numero = Math.random();
         console.log(numero);
@@ -39,7 +34,6 @@ let iniciarJuego3 = ()=>{
 };
 
 let iniciarJuego4 = ()=>{
-    // No se si ganare o perdere
     return new Promise((resolve,reject)=>{
      let numero = Math.random();
         console.log(numero);
@@ -50,7 +44,6 @@ let iniciarJuego4 = ()=>{
         }
     })
 };
-
 
 iniciarJuego()
 
